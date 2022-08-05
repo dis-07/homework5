@@ -69,3 +69,30 @@ console.log(trimString('lorem hello', 5));
 ///////////////     Task #4
 
 
+const students = [
+    {
+        name: 'John Smith',
+        marks: [10, 8, 6, 9, 8, 7 ]
+    },
+    {
+        name: 'John Doe',
+        marks: [ 9, 8, 7, 6, 7 ]
+    },
+    {
+        name: 'Thomas Anderson',
+        marks: [6, 7, 10, 8 ]
+    },
+    {
+        name: 'Jean-Baptiste Emanuel Zorg',
+        marks: [10, 9, 8, 9 ]
+    }
+]
+
+students.forEach(student => {
+
+    let averageMark = student.marks.reduce((acc, marks) => acc + marks) / student.marks.length;
+    
+    return student.averageMark = averageMark;
+});
+
+console.log(students);
