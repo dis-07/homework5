@@ -100,7 +100,7 @@
 
 /////////////
 
-////////////        Task #5     чет запутался, и не могу понять че делать дальше.
+//////////        Task #5
 
 // const vehicles = [
 //     { make: 'Honda', model: 'CR-V', type: 'suv', price: 24045 },
@@ -117,25 +117,17 @@
 
 //   const filterVehicles = vehicles.filter((vehicle) => {
 
-//     let filtLowerCase = vehicle.type = vehicle.type.toLowerCase();
-
-//     if (filtLowerCase === 'suv') {
-//         return filtLowerCase;
-//     }
+//     return vehicle.type.toLowerCase() === 'suv';
 //   });
-    
+
 //   console.log(filterVehicles);
 
-//   filterVehicles.forEach(car => {
-//     let s = car.price
-//   });
+// let average = filterVehicles.reduce((acc, price) => acc + price.price, 0) / filterVehicles.length;
+// console.log(average);
 
-// console.log(filterVehicles());
+///////
 
-
-/////////
-
-//////////////      Task #6
+////////////      Task #6
 
 // const user = {
 //     name: 'John', age: 22, salary: null,
@@ -153,11 +145,20 @@
 ////////////        Task #7
 
 
-let arr = [10, 20, 3, 4, 0, 99, 97];
-let sorted = arr.slice();
+// let arr = [10, 20, 3, 4, 0, 99, 97];
 
-sorted.sort((a, b) => a - b);
+// function copySorted(arr) {
+//     return arr.slice().sort();
+// }
 
-console.log(sorted);
+// let sorted = copySorted(arr);
 
-console.log(arr);
+// console.log(sorted);
+
+// let sorted = arr.slice();
+
+// sorted.sort((a, b) => a - b);
+
+// console.log(sorted);
+
+// console.log(arr);
